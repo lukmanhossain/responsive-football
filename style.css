@@ -84,3 +84,27 @@ width: 100%;
     transform: scale(1.5);
     transition: transform 2s;
 }
+
+/*---------- 
+        FOOTER
+            ------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+a:hover i{
+    transform: scale(1.5);
+    transition: transform 3s;
+}
+.fab{
+    color: #969BAB;
+    padding: 3px;
+}
