@@ -1,0 +1,61 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* COMMON STYLES OR UTILITIES */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.intro{
+    display: flex;
+    width: 1440px;
+    height: 677px;
+    margin-bottom: 70px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
+.half-width{
+    width: 50%;
+    font-size: 45px;
+    padding: 50px 80px 30px 100px;
+}
+.half-width img{
+    width: 80%;
+    padding: 20px 20px 20px 22px;
+}
+.half-width:hover img{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+.link-button{
+    text-decoration: none;   
+    background-color: #E02C6D;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+/*--------------- 
+        PLAYERS-INFORMATION
+                ------------------*/
+
+.players-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players{
+    width: 330px;
+    height: 500px;
+    margin-bottom: 27px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.205);
+}
+.photos img{
+width: 100%;
+}     
