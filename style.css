@@ -1,8 +1,8 @@
-/* FONTS */
+/* ( FONTS ) */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* COMMON STYLES OR UTILITIES */
+/*  ( COMMON STYLES OR UTILITIES ) */
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -23,7 +23,7 @@ body{
     padding: 50px 80px 30px 100px;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
     padding: 20px 20px 20px 22px;
 }
 .half-width:hover img{
@@ -40,7 +40,7 @@ body{
 }
 
 /*--------------- 
-        PLAYERS-INFORMATION
+        ( PLAYERS-INFORMATION )
                 ------------------*/
 
 .players-info{
@@ -60,7 +60,7 @@ body{
 width: 100%;
 } 
 /*------------- 
-        HIGHLIGHTS 
+    ( HIGHLIGHTS ) 
                 ----------------*/
 .highlights{
     display: flex;
@@ -86,7 +86,7 @@ width: 100%;
 }
 
 /*---------- 
-        FOOTER
+        ( FOOTER )
             ------------*/
 
 .footer{
@@ -108,3 +108,7 @@ a:hover i{
     color: #969BAB;
     padding: 3px;
 }
+
+
+
+
